@@ -1,0 +1,1411 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": null,
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[PAD]": 0,
+      "[UNK]": 1,
+      " ": 2,
+      "a": 3,
+      "b": 4,
+      "c": 5,
+      "d": 6,
+      "e": 7,
+      "f": 8,
+      "g": 9,
+      "h": 10,
+      "i": 11,
+      "j": 12,
+      "l": 13,
+      "m": 14,
+      "n": 15,
+      "o": 16,
+      "p": 17,
+      "q": 18,
+      "r": 19,
+      "s": 20,
+      "t": 21,
+      "u": 22,
+      "v": 23,
+      "x": 24,
+      "y": 25,
+      "z": 26,
+      "á": 27,
+      "é": 28,
+      "í": 29,
+      "ñ": 30,
+      "ó": 31,
+      "ú": 32,
+      "e ": 33,
+      "a ": 34,
+      "o ": 35,
+      "en": 36,
+      "es": 37,
+      "n ": 38,
+      "er": 39,
+      "re": 40,
+      "qu": 41,
+      "que ": 42,
+      "de ": 43,
+      "l ": 44,
+      "os": 45,
+      "le": 46,
+      "la ": 47,
+      "fle": 48,
+      "refle": 49,
+      "ent": 50,
+      "na ": 51,
+      "un ": 52,
+      "una ": 53,
+      "el ": 54,
+      "an": 55,
+      "reflej": 56,
+      "om": 57,
+      "en ": 58,
+      "ci": 59,
+      "ón ": 60,
+      "do ": 61,
+      "or": 62,
+      "es ": 63,
+      "br": 64,
+      "ti": 65,
+      "os ": 66,
+      "fer": 67,
+      "su": 68,
+      "esfer": 69,
+      "ta": 70,
+      "y ": 71,
+      "o de ": 72,
+      "esfera ": 73,
+      "se ": 74,
+      "tr": 75,
+      "ción ": 76,
+      "al": 77,
+      "ombr": 78,
+      "pr": 79,
+      "sos": 80,
+      "ombre ": 81,
+      "hombre ": 82,
+      "is": 83,
+      "lo ": 84,
+      "si": 85,
+      "una esfera ": 86,
+      "bi": 87,
+      "ob": 88,
+      "per": 89,
+      "s ": 90,
+      "ser": 91,
+      "un hombre ": 92,
+      "su ": 93,
+      "pe": 94,
+      "ve": 95,
+      "va ": 96,
+      "est": 97,
+      "de": 98,
+      "ha": 99,
+      "in": 100,
+      "mu": 101,
+      "ene ": 102,
+      "reflejo ": 103,
+      "tiene ": 104,
+      "ar": 105,
+      "co": 106,
+      "im": 107,
+      "no ": 108,
+      "a la ": 109,
+      "se v": 110,
+      "obser": 111,
+      "ad": 112,
+      "al ": 113,
+      "del ": 114,
+      "ten": 115,
+      "ás ": 116,
+      "endo ": 117,
+      "ant": 118,
+      "sostiene ": 119,
+      "veo ": 120,
+      "se ve ": 121,
+      " m": 122,
+      "au": 123,
+      "ct": 124,
+      "com": 125,
+      "iendo ": 126,
+      "mo ": 127,
+      "sí": 128,
+      "ur": 129,
+      "ver": 130,
+      "á ": 131,
+      "or ": 132,
+      "lo que ": 133,
+      "bita": 134,
+      "habita": 135,
+      "ante ": 136,
+      "ación ": 137,
+      "man": 138,
+      "más ": 139,
+      "so": 140,
+      "to": 141,
+      "ta ": 142,
+      "de la ": 143,
+      "reflejo de ": 144,
+      "sosten": 145,
+      "ismo ": 146,
+      "un hombre que ": 147,
+      "pec": 148,
+      "está ": 149,
+      "con ": 150,
+      "sí m": 151,
+      "habitación ": 152,
+      "ag": 153,
+      "di": 154,
+      "li": 155,
+      "lu": 156,
+      "pu": 157,
+      "sent": 158,
+      "esent": 159,
+      "rec": 160,
+      "ando ": 161,
+      "refleja ": 162,
+      "en la ": 163,
+      "tiva ": 164,
+      "pro": 165,
+      "present": 166,
+      "ar ": 167,
+      "observ": 168,
+      "aut": 169,
+      "como ": 170,
+      "mano ": 171,
+      "sosteniendo ": 172,
+      "sí mismo ": 173,
+      "at": 174,
+      "arec": 175,
+      "cu": 176,
+      "et": 177,
+      "ient": 178,
+      "ión ": 179,
+      "les ": 180,
+      "me ": 181,
+      "ma ": 182,
+      "ment": 183,
+      "mos ": 184,
+      "pin": 185,
+      "parec": 186,
+      "xión ": 187,
+      "estr": 188,
+      "rede": 189,
+      "represent": 190,
+      "que es ": 191,
+      "reflect": 192,
+      "reflexión ": 193,
+      "una mano ": 194,
+      "el reflejo de ": 195,
+      "en el ": 196,
+      "bros ": 197,
+      "alrede": 198,
+      "una esfera reflect": 199,
+      "su reflejo ": 200,
+      "imag": 201,
+      "imient": 202,
+      "observa ": 203,
+      "ver ": 204,
+      "todo ": 205,
+      "libros ": 206,
+      "mente ": 207,
+      "parece ": 208,
+      "alreded": 209,
+      "una esfera reflectante ": 210,
+      "ado ": 211,
+      "bles ": 212,
+      "cr": 213,
+      "ca ": 214,
+      "da la ": 215,
+      "em": 216,
+      "ebles ": 217,
+      "for": 218,
+      "iz": 219,
+      "jo ": 220,
+      "jet": 221,
+      "mbi": 222,
+      "on": 223,
+      "otr": 224,
+      "oca ": 225,
+      "pi": 226,
+      "po": 227,
+      "se": 228,
+      "spec": 229,
+      "tur": 230,
+      "voca ": 231,
+      "én ": 232,
+      "él ": 233,
+      "ún": 234,
+      "a que ": 235,
+      "espe": 236,
+      "que mu": 237,
+      "de cr": 238,
+      "la esfera ": 239,
+      "entr": 240,
+      "entor": 241,
+      "una habitación ": 242,
+      "en un ": 243,
+      "en se ve ": 244,
+      "es un ": 245,
+      "tal ": 246,
+      "tra": 247,
+      "alg": 248,
+      "aliz": 249,
+      "istal ": 250,
+      "perso": 251,
+      "perspec": 252,
+      "ser ": 253,
+      "muebles ": 254,
+      "con": 255,
+      "sostiene una esfera ": 256,
+      "veo a ": 257,
+      "ación de ": 258,
+      "pue": 259,
+      "sentimient": 260,
+      "propi": 261,
+      "observar ": 262,
+      "autor ": 263,
+      "sosteniendo una esfera ": 264,
+      "pintur": 265,
+      "estra ": 266,
+      "representación ": 267,
+      "forma ": 268,
+      "que muestra ": 269,
+      "de cristal ": 270,
+      "entorno ": 271,
+      "perspectiva ": 272,
+      " lo que ": 273,
+      "as": 274,
+      "bo": 275,
+      "bu": 276,
+      "ce": 277,
+      "có": 278,
+      "co ": 279,
+      "cen": 280,
+      "ces ": 281,
+      "cur": 282,
+      "dos": 283,
+      "dis": 284,
+      "dad": 285,
+      "dentr": 286,
+      "el": 287,
+      "ilu": 288,
+      "lo": 289,
+      "los ": 290,
+      "nos": 291,
+      "ndos": 292,
+      "pl": 293,
+      "pción ": 294,
+      "r ": 295,
+      "sen": 296,
+      "str": 297,
+      "sación de ": 298,
+      "tom": 299
+    },
+    "merges": [
+      [
+        "e",
+        " "
+      ],
+      [
+        "a",
+        " "
+      ],
+      [
+        "o",
+        " "
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "n",
+        " "
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "qu",
+        "e "
+      ],
+      [
+        "d",
+        "e "
+      ],
+      [
+        "l",
+        " "
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "l",
+        "a "
+      ],
+      [
+        "f",
+        "le"
+      ],
+      [
+        "re",
+        "fle"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "n",
+        "a "
+      ],
+      [
+        "u",
+        "n "
+      ],
+      [
+        "u",
+        "na "
+      ],
+      [
+        "e",
+        "l "
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "refle",
+        "j"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        "en",
+        " "
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "ó",
+        "n "
+      ],
+      [
+        "d",
+        "o "
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "es",
+        " "
+      ],
+      [
+        "b",
+        "r"
+      ],
+      [
+        "t",
+        "i"
+      ],
+      [
+        "os",
+        " "
+      ],
+      [
+        "f",
+        "er"
+      ],
+      [
+        "s",
+        "u"
+      ],
+      [
+        "es",
+        "fer"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "y",
+        " "
+      ],
+      [
+        "o ",
+        "de "
+      ],
+      [
+        "esfer",
+        "a "
+      ],
+      [
+        "s",
+        "e "
+      ],
+      [
+        "t",
+        "r"
+      ],
+      [
+        "ci",
+        "ón "
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "om",
+        "br"
+      ],
+      [
+        "p",
+        "r"
+      ],
+      [
+        "s",
+        "os"
+      ],
+      [
+        "ombr",
+        "e "
+      ],
+      [
+        "h",
+        "ombre "
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "l",
+        "o "
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "una ",
+        "esfera "
+      ],
+      [
+        "b",
+        "i"
+      ],
+      [
+        "o",
+        "b"
+      ],
+      [
+        "p",
+        "er"
+      ],
+      [
+        "s",
+        " "
+      ],
+      [
+        "s",
+        "er"
+      ],
+      [
+        "un ",
+        "hombre "
+      ],
+      [
+        "su",
+        " "
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "v",
+        "a "
+      ],
+      [
+        "es",
+        "t"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "en",
+        "e "
+      ],
+      [
+        "reflej",
+        "o "
+      ],
+      [
+        "ti",
+        "ene "
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "n",
+        "o "
+      ],
+      [
+        "a ",
+        "la "
+      ],
+      [
+        "se ",
+        "v"
+      ],
+      [
+        "ob",
+        "ser"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "a",
+        "l "
+      ],
+      [
+        "d",
+        "el "
+      ],
+      [
+        "t",
+        "en"
+      ],
+      [
+        "á",
+        "s "
+      ],
+      [
+        "en",
+        "do "
+      ],
+      [
+        "an",
+        "t"
+      ],
+      [
+        "sos",
+        "tiene "
+      ],
+      [
+        "ve",
+        "o "
+      ],
+      [
+        "se v",
+        "e "
+      ],
+      [
+        " ",
+        "m"
+      ],
+      [
+        "a",
+        "u"
+      ],
+      [
+        "c",
+        "t"
+      ],
+      [
+        "c",
+        "om"
+      ],
+      [
+        "i",
+        "endo "
+      ],
+      [
+        "m",
+        "o "
+      ],
+      [
+        "s",
+        "í"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "á",
+        " "
+      ],
+      [
+        "or",
+        " "
+      ],
+      [
+        "lo ",
+        "que "
+      ],
+      [
+        "bi",
+        "ta"
+      ],
+      [
+        "ha",
+        "bita"
+      ],
+      [
+        "ant",
+        "e "
+      ],
+      [
+        "a",
+        "ción "
+      ],
+      [
+        "m",
+        "an"
+      ],
+      [
+        "m",
+        "ás "
+      ],
+      [
+        "s",
+        "o"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "t",
+        "a "
+      ],
+      [
+        "de ",
+        "la "
+      ],
+      [
+        "reflej",
+        "o de "
+      ],
+      [
+        "sos",
+        "ten"
+      ],
+      [
+        "is",
+        "mo "
+      ],
+      [
+        "un hombre ",
+        "que "
+      ],
+      [
+        "pe",
+        "c"
+      ],
+      [
+        "est",
+        "á "
+      ],
+      [
+        "co",
+        "n "
+      ],
+      [
+        "sí",
+        " m"
+      ],
+      [
+        "habita",
+        "ción "
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "l",
+        "u"
+      ],
+      [
+        "p",
+        "u"
+      ],
+      [
+        "s",
+        "ent"
+      ],
+      [
+        "es",
+        "ent"
+      ],
+      [
+        "re",
+        "c"
+      ],
+      [
+        "an",
+        "do "
+      ],
+      [
+        "reflej",
+        "a "
+      ],
+      [
+        "en ",
+        "la "
+      ],
+      [
+        "ti",
+        "va "
+      ],
+      [
+        "pr",
+        "o"
+      ],
+      [
+        "pr",
+        "esent"
+      ],
+      [
+        "ar",
+        " "
+      ],
+      [
+        "obser",
+        "v"
+      ],
+      [
+        "au",
+        "t"
+      ],
+      [
+        "com",
+        "o "
+      ],
+      [
+        "man",
+        "o "
+      ],
+      [
+        "sosten",
+        "iendo "
+      ],
+      [
+        "sí m",
+        "ismo "
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "a",
+        "rec"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "i",
+        "ent"
+      ],
+      [
+        "i",
+        "ón "
+      ],
+      [
+        "l",
+        "es "
+      ],
+      [
+        "m",
+        "e "
+      ],
+      [
+        "m",
+        "a "
+      ],
+      [
+        "m",
+        "ent"
+      ],
+      [
+        "m",
+        "os "
+      ],
+      [
+        "p",
+        "in"
+      ],
+      [
+        "p",
+        "arec"
+      ],
+      [
+        "x",
+        "ión "
+      ],
+      [
+        "es",
+        "tr"
+      ],
+      [
+        "re",
+        "de"
+      ],
+      [
+        "re",
+        "present"
+      ],
+      [
+        "que ",
+        "es "
+      ],
+      [
+        "refle",
+        "ct"
+      ],
+      [
+        "refle",
+        "xión "
+      ],
+      [
+        "una ",
+        "mano "
+      ],
+      [
+        "el ",
+        "reflejo de "
+      ],
+      [
+        "en ",
+        "el "
+      ],
+      [
+        "br",
+        "os "
+      ],
+      [
+        "al",
+        "rede"
+      ],
+      [
+        "una esfera ",
+        "reflect"
+      ],
+      [
+        "su ",
+        "reflejo "
+      ],
+      [
+        "im",
+        "ag"
+      ],
+      [
+        "im",
+        "ient"
+      ],
+      [
+        "obser",
+        "va "
+      ],
+      [
+        "ver",
+        " "
+      ],
+      [
+        "to",
+        "do "
+      ],
+      [
+        "li",
+        "bros "
+      ],
+      [
+        "ment",
+        "e "
+      ],
+      [
+        "parec",
+        "e "
+      ],
+      [
+        "alrede",
+        "d"
+      ],
+      [
+        "una esfera reflect",
+        "ante "
+      ],
+      [
+        "a",
+        "do "
+      ],
+      [
+        "b",
+        "les "
+      ],
+      [
+        "c",
+        "r"
+      ],
+      [
+        "c",
+        "a "
+      ],
+      [
+        "d",
+        "a la "
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "e",
+        "bles "
+      ],
+      [
+        "f",
+        "or"
+      ],
+      [
+        "i",
+        "z"
+      ],
+      [
+        "j",
+        "o "
+      ],
+      [
+        "j",
+        "et"
+      ],
+      [
+        "m",
+        "bi"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "o",
+        "tr"
+      ],
+      [
+        "o",
+        "ca "
+      ],
+      [
+        "p",
+        "i"
+      ],
+      [
+        "p",
+        "o"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "s",
+        "pec"
+      ],
+      [
+        "t",
+        "ur"
+      ],
+      [
+        "v",
+        "oca "
+      ],
+      [
+        "é",
+        "n "
+      ],
+      [
+        "é",
+        "l "
+      ],
+      [
+        "ú",
+        "n"
+      ],
+      [
+        "a ",
+        "que "
+      ],
+      [
+        "es",
+        "pe"
+      ],
+      [
+        "que ",
+        "mu"
+      ],
+      [
+        "de ",
+        "cr"
+      ],
+      [
+        "la ",
+        "esfera "
+      ],
+      [
+        "ent",
+        "r"
+      ],
+      [
+        "ent",
+        "or"
+      ],
+      [
+        "una ",
+        "habitación "
+      ],
+      [
+        "en ",
+        "un "
+      ],
+      [
+        "en ",
+        "se ve "
+      ],
+      [
+        "es ",
+        "un "
+      ],
+      [
+        "ta",
+        "l "
+      ],
+      [
+        "tr",
+        "a"
+      ],
+      [
+        "al",
+        "g"
+      ],
+      [
+        "al",
+        "iz"
+      ],
+      [
+        "is",
+        "tal "
+      ],
+      [
+        "per",
+        "so"
+      ],
+      [
+        "per",
+        "spec"
+      ],
+      [
+        "ser",
+        " "
+      ],
+      [
+        "mu",
+        "ebles "
+      ],
+      [
+        "co",
+        "n"
+      ],
+      [
+        "sostiene ",
+        "una esfera "
+      ],
+      [
+        "veo ",
+        "a "
+      ],
+      [
+        "ación ",
+        "de "
+      ],
+      [
+        "pu",
+        "e"
+      ],
+      [
+        "sent",
+        "imient"
+      ],
+      [
+        "pro",
+        "pi"
+      ],
+      [
+        "observ",
+        "ar "
+      ],
+      [
+        "aut",
+        "or "
+      ],
+      [
+        "sosteniendo ",
+        "una esfera "
+      ],
+      [
+        "pin",
+        "tur"
+      ],
+      [
+        "estr",
+        "a "
+      ],
+      [
+        "represent",
+        "ación "
+      ],
+      [
+        "for",
+        "ma "
+      ],
+      [
+        "que mu",
+        "estra "
+      ],
+      [
+        "de cr",
+        "istal "
+      ],
+      [
+        "entor",
+        "no "
+      ],
+      [
+        "perspec",
+        "tiva "
+      ],
+      [
+        " ",
+        "lo que "
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "b",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "c",
+        "ó"
+      ],
+      [
+        "c",
+        "o "
+      ],
+      [
+        "c",
+        "en"
+      ],
+      [
+        "c",
+        "es "
+      ],
+      [
+        "c",
+        "ur"
+      ],
+      [
+        "d",
+        "os"
+      ],
+      [
+        "d",
+        "is"
+      ],
+      [
+        "d",
+        "ad"
+      ],
+      [
+        "d",
+        "entr"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "i",
+        "lu"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "l",
+        "os "
+      ],
+      [
+        "n",
+        "os"
+      ],
+      [
+        "n",
+        "dos"
+      ],
+      [
+        "p",
+        "l"
+      ],
+      [
+        "p",
+        "ción "
+      ],
+      [
+        "r",
+        " "
+      ],
+      [
+        "s",
+        "en"
+      ],
+      [
+        "s",
+        "tr"
+      ],
+      [
+        "s",
+        "ación de "
+      ],
+      [
+        "t",
+        "om"
+      ]
+    ]
+  }
+}
